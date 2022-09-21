@@ -178,24 +178,23 @@ class _LoginScreenState extends State<LoginScreen> {
                                                     return PolicyDialog(
                                                         mdFileName:
                                                             'privacy_policy.md');
-                                                  });
+                                                });
                                             })
+                                          ],
+                                        )),
+                                      )
                                     ],
-                                  )),
+                                  ))
+                                ],
+                              ),
                             )
                           ],
-                        ))
-                    ],
-                  ),
-                  )
-              ],
-            ),
-          ),
-        )
-      ],)
-      
-      
-    );
+                        ),
+                      ),
+                    )
+                  ],
+                  ) 
+              );
   }
   void _togglePasswordView() {
     setState(() {
